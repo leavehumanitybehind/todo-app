@@ -10,10 +10,8 @@
     "unit": "jest --config test/unit/jest.conf.js --coverage",
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
-      "serve": "vue-cli-service serve",
-      "build": "vue-cli-service build",
-      "lint": "vue-cli-service lint",
-      "deploy": "sh deploy.sh"
+    "build": "npm run build",
+    "deploy": "sh deploy.sh"
   },
   "dependencies": {
     "vue": "^2.5.2",
